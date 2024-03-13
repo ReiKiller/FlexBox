@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+}
+
+.container{
+    border: 1px solid black;
+    height: 600px;
+    width: 1000px;
+    background-color: aqua;
+}
+.flex-filho1,.flex-filho2{
+    border: 1px solid black;
+    width: 300px;
+    height: 200px;
+    font-size: 100px;
+    background-color: white;
+}
+
+.flex-filho2{
+    flex-grow: 1;
+}
